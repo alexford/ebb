@@ -9,7 +9,7 @@ Ebb is built with [DragonRuby](https://dragonruby.itch.io/dragonruby-gtk) in min
 ```ruby
 # main.rb (DragonRuby)
 
-require 'app/lib/ebb.rb'
+require 'lib/ebb.rb'
 
 $e = Ebb.new
 
