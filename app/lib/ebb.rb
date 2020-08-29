@@ -1,7 +1,6 @@
 class Ebb
-  def initialize(speed: 1)
+  def initialize
     @tick = 0
-    @speed = speed
     @delays = {}
     @fps = {}
     @transitions = {}
