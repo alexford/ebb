@@ -79,14 +79,6 @@ class Ebb
     block_given? ? yield(result) : result
   end
 
-  def orbit(circumfrence = 85, rate = 60)
-    result = [
-      wave(0, circumfrence, rate),
-      wave(0, circumfrence, rate, :cos)
-    ]
-    block_given? ? yield(result[0], result[1]) : result
-  end
-
   private
 
   def between(min, max, coefficient)
