@@ -1,13 +1,13 @@
 # Ebb
 
-![Ebb Demo GIF](metadata/ebb.gif)
-
 ## Time-based helpers for Ruby game dev
 
-Ebb is built with [DragonRuby](https://dragonruby.itch.io/dragonruby-gtk) in mind, and is presented in this repo as a DragonRuby game for now, but should work with other similar game engines.
+![Ebb Demo GIF](metadata/ebb.gif)
+
+Ebb is built with [DragonRuby](https://dragonruby.itch.io/dragonruby-gtk) in mind, and is presented in this repo within a demo DragonRuby game for now, although it should work fine outside of that context.
 
 ```ruby
-# main.rb
+# main.rb (DragonRuby)
 
 require 'app/lib/ebb.rb'
 
@@ -44,4 +44,5 @@ Coming soon
 
 ### More
 
+- See [ebb.rb](app/lib/ebb.rb) for helper code
 - See [main.rb](app/main.rb) for more examples
