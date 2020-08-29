@@ -1,0 +1,6 @@
+devid=alexford
+devtitle=Alex Ford
+gameid=ebb
+gametitle=Ebb Helpers w/ Demo Game
+version=0.1
+icon=metadata/icon.png
