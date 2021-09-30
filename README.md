@@ -11,9 +11,8 @@ Ebb is built with [DragonRuby](https://dragonruby.itch.io/dragonruby-gtk) in min
 
 require 'lib/ebb.rb'
 
-$e = Ebb.new
-
 def tick(args)
+  $e ||= Ebb.new
   $e.tick
 
   # Helpers yield to a block
