@@ -3,9 +3,9 @@ require 'app/lib/ebb.rb'
 
 $gtk.reset
 
-$e = Ebb.new
-
 def tick args
+  $e ||= Ebb.new
+
   $e.tick
   text_examples = []
   line_examples = []
